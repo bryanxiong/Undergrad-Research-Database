@@ -1,0 +1,37 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color:#665544;
+  text-align:center;
+}
+
+::-webkit-input-placeholder {
+	color: orangered;
+}
+
+
+#nav, #feature, .article, #footer {
+  background-color: #efefef;
+  margin-top:20px;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 10px 0px 5px 0px;
+}
+
+#feature, .article  {
+  height: auto;
+}
+
+.article  {
+  width: 31%;
+  margin: 2% 1% 2% 1%;
+  float:left;
+}
+
+li  {
+  display: inline;
+  padding: 5px;
+}
+
+#footer	{
+  clear:both;
+}
