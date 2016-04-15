@@ -8,7 +8,6 @@
 	color: orangered;
 }
 
-
 #nav, #feature, .article, #footer {
   background-color: #efefef;
   margin-top:20px;
@@ -34,4 +33,55 @@ li  {
 
 #footer	{
   clear:both;
+}
+
+@media screen and (max-width: 481px) {
+
+  * {
+    font-family: Arial, Verdana, sans-serif;
+    color:#665544;
+    text-align:left;
+  }
+
+  ::-webkit-input-placeholder {
+    color: orangered;
+  }
+
+  #header {
+    width: 94%;
+    margin: 3%;
+    float:left;
+  }
+
+  #nav, #feature, .article, #footer {
+    background-color: #efefef;
+    margin-top:20px;
+    /*margin-right:auto;*/
+    /*margin-left:auto;*/
+    width: 94%;
+    margin: 3%;
+    padding: 2%;
+    float:left;
+  }
+
+  #feature, .article  {
+    height: auto;
+  }
+
+  .article {
+    width: 94;
+    margin: 3%;
+    float:left;
+  }
+
+  li  {
+    display: inline;
+    float:left;
+    padding:0;
+    margin: 3%;
+  }
+
+  #footer {
+    clear:both;
+  }
 }
